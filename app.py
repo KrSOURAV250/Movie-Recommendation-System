@@ -42,7 +42,7 @@ def recommend(movie):
     recommended_movies_posters = []
     for i in movie_listt:
         movie_id = movie_list.iloc[i[0]]["id"]
-        recommended_movies_posters.append(fetch_poster(movie_id))
+        # recommended_movies_posters.append(fetch_poster(movie_id))
         recommended_movies.append(movie_list.iloc[i[0]]["title"])
     return recommended_movies, recommended_movies_posters
 
@@ -56,40 +56,40 @@ if st.button("Recommend"):
 
     with col1:
         st.text(names[0])
-        st.image(posters[0])
+       # st.image(posters[0])
 
     with col2:
         st.text(names[1])
-        st.image(posters[1])
+       # st.image(posters[1])
 
     with col3:
         st.text(names[2])
-        st.image(posters[2])
+       # st.image(posters[2])
     with col4:
         st.text(names[3])
-        st.image(posters[3])
+       # st.image(posters[3])
 
     with col5:
         st.text(names[4])
-        st.image(posters[4])
+      #  st.image(posters[4])
     with col6:
         st.text(names[5])
         st.image(posters[5])
 
     with col7:
         st.text(names[6])
-        st.image(posters[6])
+        # st.image(posters[6])
 
     with col8:
         st.text(names[7])
-        st.image(posters[7])
+        # st.image(posters[7])
     with col9:
         st.text(names[8])
         st.image(posters[8])
 
     with col10:
         st.text(names[9])
-        st.image(posters[9])
+       # st.image(posters[9])
 
 
 
