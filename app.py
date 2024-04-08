@@ -15,6 +15,7 @@ def decompress_pickle(file):
 
 # movie_list = pickle.load(open("movies.pkl", "rb"))
 # movie_list = joblib.load("movies2")
+# abc
 movie_list =  decompress_pickle(r"moviecom.pbz2")
 movies_list = movie_list["title"].values
 st.title('Movie Recommend System')
@@ -56,25 +57,25 @@ if st.button("Recommend"):
 
     with col1:
         st.text(names[0])
-       st.image(posters[0])
+        st.image(posters[0])
 
     with col2:
         st.text(names[1])
-       st.image(posters[1])
+        st.image(posters[1])
 
     with col3:
         st.text(names[2])
-       st.image(posters[2])
+        st.image(posters[2])
     with col4:
         st.text(names[3])
-       st.image(posters[3])
+        st.image(posters[3])
 
     with col5:
         st.text(names[4])
-       st.image(posters[4])
+        st.image(posters[4])
     with col6:
         st.text(names[5])
-       st.image(posters[5])
+        st.image(posters[5])
 
     with col7:
         st.text(names[6])
@@ -85,11 +86,11 @@ if st.button("Recommend"):
         st.image(posters[7])
     with col9:
         st.text(names[8])
-       st.image(posters[8])
+        st.image(posters[8])
 
     with col10:
         st.text(names[9])
-       st.image(posters[9])
+        st.image(posters[9])
 
 
 
